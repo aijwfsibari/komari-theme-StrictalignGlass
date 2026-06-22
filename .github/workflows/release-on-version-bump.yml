@@ -1,9 +1,8 @@
 name: Release On Version Bump
 
 on:
-  push:
-    branches:
-      - main
+  # 手动触发
+  workflow_dispatch:
 
 permissions:
   contents: write
