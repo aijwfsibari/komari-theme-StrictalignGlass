@@ -49,10 +49,10 @@ const formattedServerVersion = computed(() => serverVersion.value?.version ?? ''
           :content="`v${buildVersion}\n${buildGitHash}`"
         >
           <a
-            href="https://github.com/sanrokamlan-prog/komari-theme-Glassmorphism" target="_blank" rel="noopener noreferrer"
+            href="https://github.com/aijwfsibari/komari-theme-StrictalignGlass" target="_blank" rel="noopener noreferrer"
             class="transition-opacity hover:opacity-80"
           >
-            <span class="font-medium text-foreground">Komari Glassmorphism</span>
+            <span class="font-medium text-foreground">Komari AlignGlass</span>
           </a>
         </DataTooltip>
       </div>
