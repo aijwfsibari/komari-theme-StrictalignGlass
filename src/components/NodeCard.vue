@@ -138,7 +138,7 @@ function hasRegion(region: string | null | undefined): boolean {
   <CardX
     hoverable
     :size="nodeCardXSize"
-    class="node-card w-full cursor-pointer border-none shadow-[0_0_0_3px] shadow-transparent transition-all duration-200 rounded-xl"
+    class="node-card w-full h-full cursor-pointer border-none shadow-[0_0_0_3px] shadow-transparent transition-all duration-200 rounded-xl"
     :class="[!props.node.online && '!shadow-red-500/30']"
     @click="emit('click')"
   >

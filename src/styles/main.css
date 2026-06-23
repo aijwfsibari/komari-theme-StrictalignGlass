@@ -158,8 +158,8 @@
 .bg-card,
 [data-slot='card'] {
   /* Slightly more translucent background and stronger blur/saturation for a clearer glass effect */
-  background-color: rgb(255 255 255 / 0.62) !important;
-  border: 1px solid rgb(255 255 255 / 0.34) !important;
+  background-color: rgb(255 255 255 / 0.48) !important;
+  border: 1px solid rgb(255 255 255 / 0.28) !important;
   backdrop-filter: blur(18px) saturate(170%) !important;
   -webkit-backdrop-filter: blur(18px) saturate(170%) !important;
   box-shadow: 0 6px 24px rgb(0 0 0 / 0.1) !important;
@@ -168,8 +168,8 @@
 .node-card:hover,
 .bg-card:hover,
 [data-slot='card']:hover {
-  background-color: rgb(255 255 255 / 0.72) !important;
-  box-shadow: 0 10px 36px rgb(0 0 0 / 0.16) !important;
+  background-color: rgb(255 255 255 / 0.58) !important;
+  box-shadow: 0 10px 36px rgb(0 0 0 / 0.45) !important;
 }
 
 /* ===== 暗色模式 ===== */
@@ -178,7 +178,7 @@
 .dark .bg-card,
 .dark [data-slot='card'] {
   /* Dark mode: keep a translucent glass feel while improving foreground contrast */
-  background-color: rgb(15 15 25 / 0.72) !important;
+  background-color: rgb(20 20 20 / 0.45) !important;
   border: 1px solid rgb(255 255 255 / 0.12) !important;
   box-shadow: 0 6px 28px rgb(0 0 0 / 0.36) !important;
 }
@@ -186,33 +186,46 @@
 .dark .node-card:hover,
 .dark .bg-card:hover,
 .dark [data-slot='card']:hover {
-  background-color: rgb(15 15 25 / 0.82) !important;
+  background-color: rgb(20 20 20 / 0.62) !important;
 }
 
 /* ===== Header ===== */
 
 header {
-  background-color: rgb(255 255 255 / 0.55) !important;
+  background-color: rgb(255 255 255 / 0.48) !important;
   backdrop-filter: blur(14px) saturate(150%) !important;
   -webkit-backdrop-filter: blur(14px) saturate(150%) !important;
   border-bottom: 1px solid rgb(255 255 255 / 0.3) !important;
 }
 
 .dark header {
-  background-color: rgb(10 10 20 / 0.6) !important;
+  background-color: rgb(20 20 20 / 0.45) !important;
   border-bottom: 1px solid rgb(255 255 255 / 0.08) !important;
 }
 
 /* ===== 顶部统计栏 ===== */
 
 .bg-background {
-  background-color: rgb(255 255 255 / 0.55) !important;
-  backdrop-filter: blur(12px) saturate(150%) !important;
-  -webkit-backdrop-filter: blur(12px) saturate(150%) !important;
+  background-color: rgb(255 255 255 / 0.48) !important;
+  border: 1px solid rgb(255 255 255 / 0.28) !important;
+  backdrop-filter: blur(18px) saturate(170%) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(170%) !important;
+  box-shadow: 0 6px 24px rgb(0 0 0 / 0.1) !important;
+}
+
+.bg-background:hover {
+  background-color: rgb(255 255 255 / 0.58) !important;
+  box-shadow: 0 10px 36px rgb(0 0 0 / 0.45) !important;
 }
 
 .dark .bg-background {
-  background-color: rgb(20 20 35 / 0.55) !important;
+  background-color: rgb(20 20 20 / 0.45) !important;
+  border: 1px solid rgb(255 255 255 / 0.12) !important;
+  box-shadow: 0 6px 28px rgb(0 0 0 / 0.36) !important;
+}
+
+.dark .bg-background:hover {
+  background-color: rgb(20 20 20 / 0.62) !important;
 }
 
 /* ===== 小组件背景 ===== */
